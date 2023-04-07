@@ -1,0 +1,53 @@
+.main {
+  padding: 5rem 0;
+  align-items: center;
+  background-color: #95928c;
+}
+
+.numbers {
+  min-width: 100px;
+  display: inline-block;
+  background-color: #19376d;
+}
+
+.textbox {
+  background-color: #4a1be4;
+  border: 2px solid black;
+  min-height: 50px;
+  font-size: x-large;
+  padding: 20px;
+  max-width: 556px;
+  color: #d9f852;
+}
+
+.pad {
+  color: black;
+  padding: 40px;
+  margin: 10px;
+  background-color: #d9f852;
+  border: 2px solid black;
+}
+
+.cal1 {
+  display: inline-block;
+}
+
+.cal2 {
+  display: inline-block;
+  background-color: blueviolet;
+}
+
+.modifiers {
+  display: inline-block;
+  max-width: 230px;
+  background-color: brown;
+}
+
+.equals {
+  color: black;
+  padding: 40px;
+  margin: 10px;
+  background-color: #d9f852;
+  border: 2px solid black;
+  width: 200px;
+}
