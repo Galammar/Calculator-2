@@ -1,29 +1,35 @@
 .main {
-  padding: 5rem 0;
-  align-items: center;
-  background-color: #95928c;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .numbers {
-  min-width: 100px;
-  display: inline-block;
+  flex: auto;
+  max-width: 500px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
   background-color: #19376d;
 }
 
 .textbox {
+  flex: auto;
+  display: flex;
   background-color: #4a1be4;
   border: 2px solid black;
-  min-height: 50px;
-  font-size: x-large;
-  padding: 20px;
-  max-width: 556px;
+  max-width: 500px;
+  height: 75px;
+  vertical-align: middle;
+  font-size: 60px;
   color: #d9f852;
 }
 
 .pad {
   color: black;
-  padding: 40px;
-  margin: 10px;
+  width: 100px;
+  height: 100px;
+  flex: initial;
   background-color: #d9f852;
   border: 2px solid black;
 }
@@ -45,9 +51,9 @@
 
 .equals {
   color: black;
-  padding: 40px;
-  margin: 10px;
+  width: 200px;
+  height: 100px;
+  flex: initial;
   background-color: #d9f852;
   border: 2px solid black;
-  width: 200px;
 }
