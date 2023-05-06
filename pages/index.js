@@ -139,7 +139,14 @@ export default function Home() {
             </button>
             <button
               className={styles.equals}
-              onClick={() => setCalOutput(eval(firstNumber + calOutput))}
+              onClick={() => {
+                let result = eval(firstNumber + calOutput);
+                if (result.length > 15) {
+                  setCalOutput('ERROR');
+                } else {
+                  setCalOutput(result);
+                }
+              }}
             >
               =
             </button>
